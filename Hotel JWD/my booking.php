@@ -118,7 +118,7 @@
                                             <div class="form-group row">
                                                 <label for="total" class="col-sm-5 col-form-label">Total Bayar</label>
                                                 <div class="col-sm-7">
-                                                    <input type="text" readonly class="form-control-plaintext" id="total" value="<?= $shows['total'] ?>">
+                                                    <input type="text" readonly class="form-control-plaintext" id="total" value="<?= $show['total'] ?>">
                                                 </div>
                                             </div>
                                         </div>
