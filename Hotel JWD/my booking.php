@@ -88,25 +88,25 @@
                                             <div class="form-group row">
                                                 <label for="nomor_id" class="col-sm-5 col-form-label">Nomor Identitas</label>
                                                 <div class="col-sm-7">
-                                                    <input type="text" readonly class="form-control-plaintext" id="nomor_id" value="<?= $nomor_id ?>">
+                                                    <input type="text" readonly class="form-control-plaintext" id="nomor_id" value="<?= $show['nomor_id'] ?>">
                                                 </div>
                                             </div>
                                             <div class="form-group row">
                                                 <label for="jenis_kelamin" class="col-sm-5 col-form-label">Jenis Kelamin</label>
                                                 <div class="col-sm-7">
-                                                    <input type="text" readonly class="form-control-plaintext" id="jenis_kelamin" value="<?= $jenis_kelamin ?>">
+                                                    <input type="text" readonly class="form-control-plaintext" id="jenis_kelamin" value="<?= $show['jenis_kelamin'] ?>">
                                                 </div>
                                             </div>
                                             <div class="form-group row">
                                                 <label for="tipe_kamar" class="col-sm-5 col-form-label">Tipe Kamar</label>
                                                 <div class="col-sm-7">
-                                                    <input type="text" readonly class="form-control-plaintext" id="tipe_kamar" value="<?= $tipe_kamar ?>">
+                                                    <input type="text" readonly class="form-control-plaintext" id="tipe_kamar" value="<?= $show['tipe_kamar'] ?>">
                                                 </div>
                                             </div>
                                             <div class="form-group row">
                                                 <label for="durasi" class="col-sm-5 col-form-label">Durasi Penginapan</label>
                                                 <div class="col-sm-7">
-                                                    <input type="text" readonly class="form-control-plaintext" id="durasi" value="<?= $durasi ?>">
+                                                    <input type="text" readonly class="form-control-plaintext" id="durasi" value="<?= $show['durasi'] ?>">
                                                 </div>
                                             </div>
                                             <div class="form-group row">
@@ -118,7 +118,7 @@
                                             <div class="form-group row">
                                                 <label for="total" class="col-sm-5 col-form-label">Total Bayar</label>
                                                 <div class="col-sm-7">
-                                                    <input type="text" readonly class="form-control-plaintext" id="total" value="<?= $total ?>">
+                                                    <input type="text" readonly class="form-control-plaintext" id="total" value="<?= $shows['total'] ?>">
                                                 </div>
                                             </div>
                                         </div>
